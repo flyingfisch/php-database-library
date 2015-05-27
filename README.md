@@ -1,18 +1,16 @@
 # php-database-library
 PHP library for easy access to MySQL databases and the file system.
 
+(View in "RAW" mode for better formatting.)
+
 This code was written by Justin Eldracher in 2015.  Feel free to do whatever you want to this code,
 just please let me know what you changed/added so I don't miss out on anything awesome! ;)
 If you find any errors or would like to make comments, please leave a message at:
 http://blindwarrior.16mb.com/writemsg.php
 
-Method List:<br />
-	<div style="text-indent:30px;">
+Method List:
 	init([default table]);
-	</div>
-		<div style="text-indent: 60px;">
 		Initialize the database connection and select a database.  Set the table also, if one is specified.
-		</div>
 	getall();
 		Returns an associative matrix of the databases and their tables on the current MySQL connection.
 	setdb(new_database_name);
