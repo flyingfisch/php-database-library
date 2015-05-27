@@ -6,9 +6,13 @@ just please let me know what you changed/added so I don't miss out on anything a
 If you find any errors or would like to make comments, please leave a message at:
 http://blindwarrior.16mb.com/writemsg.php
 
-Method List:
+Method List:<br />
+	<div style="text-indent:30px;">
 	init([default table]);
+	</div>
+		<div style="text-indent: 60px;">
 		Initialize the database connection and select a database.  Set the table also, if one is specified.
+		</div>
 	getall();
 		Returns an associative matrix of the databases and their tables on the current MySQL connection.
 	setdb(new_database_name);
